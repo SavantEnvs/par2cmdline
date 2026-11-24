@@ -1,0 +1,11 @@
+# Build context for mayhem/Dockerfile: the FULL repo incl. .git (the grader uses
+# the history); only local build outputs are left out. (Upstream's own build/
+# directory holds release scripts and stays in.)
+mayhem/build/
+/fuzz_par*
+ctrf-report.json
+*.o
+*.a
+.DS_Store
+*.swp
+*~
